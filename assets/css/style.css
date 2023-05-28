@@ -1,0 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    color: rgb(215, 122, 231);
+    background-color: rgb(66, 38, 139);
+}
