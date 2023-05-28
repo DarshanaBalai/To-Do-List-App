@@ -8,3 +8,54 @@ body {
     color: rgb(215, 122, 231);
     background-color: rgb(66, 38, 139);
 }
+
+h1{
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+    font-weight: 900;
+    font-size: 60px;
+    padding-bottom: 30px;
+}
+
+.add-task {
+    margin-left: 37%;
+    border-radius: 2rem;
+    padding: 10px;
+    width: 20%;
+    border: none;
+   transition: all 0.3 ease-in-out;
+   margin-bottom: 20px;
+}
+
+
+.add-button {
+    border-radius: 2rem;
+    padding: 10px;
+    width: 5%;
+    border: none; 
+    cursor: pointer;
+    background-color:rgb(215, 122, 231); 
+    color: rgb(66, 38, 139);
+}
+
+.add-button:hover {
+    color:rgb(215, 122, 231); 
+    background-color: rgb(66, 38, 139);
+    }
+
+    .options{
+        margin-left: 45%;
+        padding: 10px;
+        border-radius: 2rem;
+    }
+
+    .to-do-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .list{
+        list-style: none;
+    }
