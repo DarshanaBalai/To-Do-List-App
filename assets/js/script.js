@@ -16,13 +16,23 @@ listEntry.classList.add("list-entry")
 listEntryDiv.appendChild(listEntry);
 console.log("done");
  
+const editButton = document.createElement("button");
+editButton.innerHTML= <i class="fa-thin fa-pen-to-square"></i>;
+editButton.classList.add("editBtn");
+listEntryDiv.appendChild(editButton)
+
 const doneButton = document.createElement("button");
 doneButton.innerHTML = <i class="fa-solid fa-square-check"></i>
 doneButton.className.add("doneBtn")
+listEntryDiv.appendChild(doneButton)
 
  const deleteButton = document.createElement("button");
  deleteButton.innerHTML = <i class="fa-solid fa-trash"></i>
  deleteButton.classList.add("deleteBtn");
- 
+ listEntryDiv.appendChild(deleteButton)
+
+ list.appendChild(listEntryDiv);
+ addInput.value = "";
+
 }
 
