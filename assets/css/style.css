@@ -6,8 +6,7 @@
 
 body {
     color: rgb(215, 122, 231);
-    /* background-color: rgb(66, 38, 139); */
-    background-color: rgb(55, 139, 38);
+     background-color: rgb(66, 38, 139); 
 }
 
 h1{
@@ -79,4 +78,22 @@ h1{
     .list-entryDiv li {
     flex: 1;
     text-decoration: ;
+}
+
+.doneBtn, .deleteBtn, .editBtn{
+    background-color: rgb(215, 122, 231);
+    /* margin: 2px; */
+    padding: 2px;
+    color: white;
+    border: none;
+   
+    cursor: pointer;
+    font-size: 1.5rem;
+   
+}
+
+.deleteBtn{
+   
+    border-top-right-radius: 1.75rem;
+    border-bottom-right-radius: 1.75rem;
 }
