@@ -42,10 +42,9 @@ editButton.addEventListener("click", handleEdit);
 function handleEdit (event){
     if(editButton.innerHTML == '<i class="fa-solid fa-pen-to-square"></i>'){
         editButton.removeAttribute("readonly");
-
-        editButton.innerHTML = '<i class="fa-solid fa-bookmark"></i>';
-      
         editButton.focus();
+        editButton.innerHTML = '<i class="fa-solid fa-bookmark"></i>';
+        
     }else{
         editButton.innerHTML ='<i class="fa-solid fa-bookmark"></i>';
         editButton.setAttribute("readonly", "readonly");
