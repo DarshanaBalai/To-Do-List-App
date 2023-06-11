@@ -10,10 +10,16 @@ addButton.addEventListener("click",listEntries);
 function listEntries (event){
 event.preventDefault();
 console.log("done");
+
+ let inputValue = addInput.value;
+if(!addInput.value){
+    alert("Please add your task");
+    return;
+}
 const listEntryDiv = document.createElement("div");
 listEntryDiv.classList.add("list-entryDiv");
 const listEntry = document.createElement("li");
-listEntry.innerText= addInput.value;
+listEntry.innerText= inputValue;
 listEntry.classList.add("list-entry")
 listEntryDiv.appendChild(listEntry);
 console.log("done");
@@ -63,6 +69,5 @@ function handleEdit (event){
     function handleDone (event) {
         console.log('complete')
         listEntryDiv.style.textDecoration = "line-through";
-       
     }
 }
